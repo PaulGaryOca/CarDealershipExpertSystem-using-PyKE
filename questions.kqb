@@ -1,0 +1,29 @@
+budget($ans)
+    What is your preferred budget?
+    ---
+    $ans = select_1
+        1: Less than 50k dollar
+        2: Greater than 50k dollar
+        3: Greater than 100k dollar
+
+unit($ans)
+    Do you want a newer model?   
+    ---
+    $ans = yn
+
+size($ans)
+    What is your preferred size?
+    ---
+    $ans = select_1
+        1: Subcompact
+        2: Compact
+        3: Midsize
+        4: Large
+
+engine($ans)
+    what type of car engine?
+    ---
+    $ans = select_1
+        1: E_Car
+        2: Gasoline
+        3: Hybrid
